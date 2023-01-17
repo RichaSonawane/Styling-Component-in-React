@@ -33,8 +33,8 @@ const FormControl = styled.div`
 `;
 
 const CourseInput = (props) => {
-  const [enteredValue, setEnteredValue] = useState("");
-  const [isValid, setIsValid] = useState(true);
+  const [enteredValue, setEnteredValue] = useState("")
+  const [isValid, setIsValid] = useState(true)
 
   const goalInputChangeHandler = (event) => {
     if(event.target.value.trim().length >0){
